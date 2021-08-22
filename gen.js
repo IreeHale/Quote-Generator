@@ -8,7 +8,7 @@ const loader = document.getElementById('loader');
 
 function showLoadingSpinner() {
     loader.hidden = false;
-    quoteContainer.hidden = true;
+    quoteContainer.hidden = false;
 }
 
 
